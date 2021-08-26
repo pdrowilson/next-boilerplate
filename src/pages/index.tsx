@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 type Props = {
-  title: string;
+  title: string
 }
 
-export default function Home( { title = "React Avançado"}:Props ) {
+export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <div>
       <Head>
@@ -17,7 +17,7 @@ export default function Home( { title = "React Avançado"}:Props ) {
       <main>
         <h1>{title}</h1>
 
-        <p>Get started by editing{' '}</p>
+        <p>Get started by editing </p>
 
         <div>
           <a href="https://nextjs.org/docs">
